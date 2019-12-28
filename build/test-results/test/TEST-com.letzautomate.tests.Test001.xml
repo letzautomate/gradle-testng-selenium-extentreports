@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.letzautomate.tests.Test001" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-28T04:18:29" hostname="DESKTOP-OHCHA70" time="6.736">
+  <properties/>
+  <testcase name="test001" classname="com.letzautomate.tests.Test001" time="6.736"/>
+  <system-out><![CDATA[[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality is started----
+[TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - Before Enter Text
+[TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - After Enter Text
+[TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - Before Random String creation
+[TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: Tw1tv
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - Before Enter Text
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - After Enter Text
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - Before Random String creation
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: OGqBr
+[TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.ExtentManager  - Screenshot destination :: E:\LetsDoIT\gradle-testng-selenium-extentreports\build\extent-reports\TestsScreenshots\PASS_Tw1tv_201912280948320474.png
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.letzautomate.tests.Test002" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-28T04:18:28" hostname="DESKTOP-OHCHA70" time="7.013">
+  <properties/>
+  <testcase name="test002" classname="com.letzautomate.tests.Test002" time="7.013"/>
+  <system-out><![CDATA[[TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality second time is started----
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 22820
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 45781
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1577506706.291][WARNING]: Timed out connecting to Chrome, retrying...
+[1577506706.694][WARNING]: Timed out connecting to Chrome, retrying...
+Dec 28, 2019 9:48:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Dec 28, 2019 9:48:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
