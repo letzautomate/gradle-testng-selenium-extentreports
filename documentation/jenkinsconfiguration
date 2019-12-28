@@ -4,3 +4,16 @@ if the report is not displayed properly: Do following:
 GoTo - ManageJenkins - ScriptConsole - Paste these two commands in the editor and click run
 System.clearProperty("hudson.model.DirectoryBrowserSupport.CSP");
 System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "sandbox allow-scripts; default-src 'self'; script-src * 'unsafe-eval'; img-src *; style-src * 'unsafe-inline'; font-src *");
+
+
+
+To have Build description as a HyperLink:
+Plugins: Description Setter
+goto Jenkins Manage: post build actions
+
+got to manage Jenkins:
+global security:
+formatter:
+You are either using Plain Text or Safe HTML formatter.
+Unfortunately the only HTML formatter than can parse the file links is the anything-goes formatter, which is very unsafe - javascripts are also allowed, and anyone can add harmful code to their user's description for example.
+To use it, download the anything-goes-formatter plugin, go to
