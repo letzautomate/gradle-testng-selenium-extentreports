@@ -51,6 +51,14 @@ public class BasePage {
         LOGGER.info("After Enter Text");
     }
 
+    public void clearAndEnterText(By locator, String textToEnter){
+        WebElement element = getDriver().findElement(locator);
+        LOGGER.info("Before Enter Text");
+        element.clear();
+        element.sendKeys(textToEnter);
+        LOGGER.info("After Enter Text");
+    }
+
 
    public ExtentTest getExtentTest() {
         Long threadID = Thread.currentThread().getId();
