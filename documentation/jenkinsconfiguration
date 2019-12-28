@@ -1,0 +1,6 @@
+htmlpublisher plugin
+if the report is not displayed properly: Do following:
+
+GoTo - ManageJenkins - ScriptConsole - Paste these two commands in the editor and click run
+System.clearProperty("hudson.model.DirectoryBrowserSupport.CSP");
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "sandbox allow-scripts; default-src 'self'; script-src * 'unsafe-eval'; img-src *; style-src * 'unsafe-inline'; font-src *");
