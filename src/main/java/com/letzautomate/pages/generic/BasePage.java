@@ -49,6 +49,7 @@ public class BasePage {
         LOGGER.info("Before Enter Text");
         element.sendKeys(textToEnter);
         LOGGER.info("After Enter Text");
+        System.out.println("test");
     }
 
     public void clearAndEnterText(By locator, String textToEnter){
