@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.letzautomate.tests.Test001" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-29T05:48:57" hostname="DESKTOP-OHCHA70" time="9.16">
+<testsuite name="com.letzautomate.tests.Test001" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-29T19:25:40" hostname="DESKTOP-OHCHA70" time="6.454">
   <properties/>
-  <testcase name="test001" classname="com.letzautomate.tests.Test001" time="9.16"/>
+  <testcase name="test001" classname="com.letzautomate.tests.Test001" time="6.454"/>
   <system-out><![CDATA[[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality is started----
-[TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality second time is started----
-[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - Before Enter Text
 [TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - Before Enter Text
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - Before Enter Text
 [TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - After Enter Text
 test
 [TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - Before Random String creation
-[TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: d03Pq
+[TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: ROyB9
 [TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - After Enter Text
 test
 [TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - Before Random String creation
-[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: OE40K
-[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.ExtentManager  - Screenshot destination :: E:\LetsDoIT\gradle-testng-selenium-extentreports\build\extent-reports\TestsScreenshots\PASS_OE40K_201912291119040386.png
-[TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.ExtentManager  - Screenshot destination :: E:\LetsDoIT\gradle-testng-selenium-extentreports\build\extent-reports\TestsScreenshots\PASS_d03Pq_201912291119020761.png
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: azdOf
+[TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.ExtentManager  - Screenshot destination :: E:\LetsDoIT\gradle-testng-selenium-extentreports\build\extent-reports\TestsScreenshots\PASS_ROyB9_201912301255430565.png
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 2077
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 2575
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1577598535.431][WARNING]: Timed out connecting to Chrome, retrying...
-[1577598535.473][WARNING]: Timed out connecting to Chrome, retrying...
-Dec 29, 2019 11:18:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Dec 29, 2019 11:18:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1afd3c7d-a5bf-4903-a2a0-0fdc22a20278" name="Default" comment="Jenkins Configuration" />
+    <list default="true" id="1afd3c7d-a5bf-4903-a2a0-0fdc22a20278" name="Default" comment="Jenkins Configuration">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extent-reports/TestsScreenshots/PASS_OGqBr_201912280948330102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extent-reports/TestsScreenshots/PASS_Tw1tv_201912280948320474.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test001.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -49,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestcaseManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestcaseManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+            <state relative-caret-position="221">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtentReport.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExtentReport.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/extent-reports/ExtentReport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="283" column="32" lean-forward="true" selection-start-line="283" selection-start-column="32" selection-end-line="283" selection-end-column="32" />
+            <state relative-caret-position="1187">
+              <caret line="339" column="4" lean-forward="true" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -438,6 +443,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/InstancesManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/extent.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/extent.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/reports/SeleniumReport.java" />
@@ -449,7 +455,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test002.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test001.java" />
         <option value="$PROJECT_DIR$/documentation/jenkinsconfiguration" />
-        <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java" />
       </list>
     </option>
   </component>
@@ -459,7 +464,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-158" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -484,6 +489,12 @@
               <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
               <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="extent-reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
@@ -515,15 +526,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="letzautomate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="letzautomate" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
@@ -739,7 +741,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java</url>
-          <line>25</line>
+          <line>20</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1050,6 +1052,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/ExtentManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -1110,18 +1122,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/extent-reports/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="283" column="32" lean-forward="true" selection-start-line="283" selection-start-column="32" selection-end-line="283" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1187">
+          <caret line="339" column="4" lean-forward="true" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
         </state>
       </provider>
     </entry>

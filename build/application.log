@@ -1,16 +1,17 @@
-[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality is started----
 [TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality second time is started----
-[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - Before Enter Text
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality is started----
 [TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - Before Enter Text
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - Before Enter Text
 [TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - After Enter Text
 [TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - Before Random String creation
-[TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: d03Pq
+[TestNG-test=Gradle test-2] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: ROyB9
 [TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - After Enter Text
 [TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - Before Random String creation
-[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: OE40K
-[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.ExtentManager  - Screenshot destination :: E:\LetsDoIT\gradle-testng-selenium-extentreports\build\extent-reports\TestsScreenshots\PASS_OE40K_201912291119040386.png
-[TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.ExtentManager  - Screenshot destination :: E:\LetsDoIT\gradle-testng-selenium-extentreports\build\extent-reports\TestsScreenshots\PASS_d03Pq_201912291119020761.png
-[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - cleanup activity
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.pages.generic.BasePage  - After Random String creation :: azdOf
+[TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.ExtentManager  - Screenshot destination :: E:\LetsDoIT\gradle-testng-selenium-extentreports\build\extent-reports\TestsScreenshots\PASS_ROyB9_201912301255430565.png
 [TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.TestcaseManager  - cleanup activity
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.ExtentManager  - Screenshot destination :: E:\LetsDoIT\gradle-testng-selenium-extentreports\build\extent-reports\TestsScreenshots\PASS_azdOf_201912301255430866.png
+[TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - cleanup activity
 [TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.TestcaseManager  - The execution is completed for test002 and the status is Passed
 [TestNG-test=Gradle test-1] INFO  com.letzautomate.utilities.TestcaseManager  - The execution is completed for test001 and the status is Passed
+[Test worker] INFO  com.letzautomate.utilities.TestcaseManager  - The Results location in shared drive:: E:\LetsDoIt\results\regression\20191230005552extent-reports
