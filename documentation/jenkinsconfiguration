@@ -17,3 +17,5 @@ formatter:
 You are either using Plain Text or Safe HTML formatter.
 Unfortunately the only HTML formatter than can parse the file links is the anything-goes formatter, which is very unsafe - javascripts are also allowed, and anyone can add harmful code to their user's description for example.
 To use it, download the anything-goes-formatter plugin, go to
+
+<a href="https://gmail.com">${tcGroups}_Results</a>
