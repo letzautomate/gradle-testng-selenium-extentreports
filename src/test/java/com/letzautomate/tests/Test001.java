@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class Test001 extends TestcaseManager {
 
-    @Test(groups={"regression", "Test001"})
+    @Test(groups={"regression", "TC001"})
     public void test001() {
         Login login = new Login();
 
