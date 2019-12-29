@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1afd3c7d-a5bf-4903-a2a0-0fdc22a20278" name="Default" comment="Jenkins Configuration">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="1afd3c7d-a5bf-4903-a2a0-0fdc22a20278" name="Default" comment="Jenkins Configuration" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -461,7 +459,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-158" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
