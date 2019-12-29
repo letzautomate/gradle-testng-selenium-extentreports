@@ -3,11 +3,16 @@ package com.letzautomate.utilities;
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class TestcaseManager extends DriverManager{
 
@@ -63,11 +68,31 @@ public class TestcaseManager extends DriverManager{
     public void clearExtentTest() {
         try{
             extentReports.flush();
+            copyResultsToSharedLocation();
 
         }catch (Exception e){
             Assert.fail(e.getMessage());
         }
     }
+
+    public void copyResultsToSharedLocation() {
+        String destinationDir = "";
+        try{
+            String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+
+            String destDirPath = "E:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + "\\" + timeStamp + "extent-reports";
+            File logFile = new File(System.getProperty("user.dir") + "/build/application.log");
+            File srcDir = new File(System.getProperty("user.dir") + "/build/extent-reports");
+            File destDir = new File("E:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + "\\" + timeStamp + "extent-reports");
+
+            FileUtils.copyFileToDirectory(logFile, destDir);
+            FileUtils.copyDirectory(srcDir, destDir);
+            System.out.println("The Results location in shared drive:: " + destDirPath);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+
 
 
 
