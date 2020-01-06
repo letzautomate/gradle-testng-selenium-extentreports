@@ -19,3 +19,6 @@ Unfortunately the only HTML formatter than can parse the file links is the anyth
 To use it, download the anything-goes-formatter plugin, go to
 
 <a href="https://gmail.com">${tcGroups}_Results</a>
+
+
+java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war
