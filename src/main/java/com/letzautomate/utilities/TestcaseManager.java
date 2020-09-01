@@ -80,10 +80,10 @@ public class TestcaseManager extends DriverManager{
         try{
             String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 
-            String destDirPath = "E:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + "\\" + timeStamp + "extent-reports";
+            String destDirPath = "C:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + "\\" + timeStamp + "extent-reports";
             File logFile = new File(System.getProperty("user.dir") + "/build/application.log");
             File srcDir = new File(System.getProperty("user.dir") + "/build/extent-reports");
-            File destDir = new File("E:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + "\\" + timeStamp + "\\extent-reports");
+            File destDir = new File("C:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + "\\" + timeStamp + "\\extent-reports");
 
             FileUtils.copyFileToDirectory(logFile, destDir);
             FileUtils.copyDirectory(srcDir, destDir);
