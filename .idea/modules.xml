@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports_main.iml" group="gradle-testng-selenium-extentreports" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports_test.iml" group="gradle-testng-selenium-extentreports" />
+    </modules>
+  </component>
+</project>
