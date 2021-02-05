@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.letzautomate.tests.Test002" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-29T19:25:38" hostname="DESKTOP-OHCHA70" time="7.026">
+<testsuite name="com.letzautomate.tests.Test002" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-05T09:14:01" hostname="DESKTOP-O4501MA" time="2.976">
   <properties/>
-  <testcase name="test002" classname="com.letzautomate.tests.Test002" time="7.026"/>
+  <testcase name="test002" classname="com.letzautomate.tests.Test002" time="2.976"/>
   <system-out><![CDATA[[TestNG-test=Gradle test-2] INFO  com.letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Functionality second time is started----
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 41982
+  <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 11800
 Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 12372
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 14469
 Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1577647536.166][WARNING]: Timed out connecting to Chrome, retrying...
-[1577647537.774][WARNING]: Timed out connecting to Chrome, retrying...
-Dec 30, 2019 12:55:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Feb 05, 2021 2:44:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Dec 30, 2019 12:55:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 05, 2021 2:44:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

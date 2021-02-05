@@ -16,7 +16,7 @@ interpolated-*.xml
 *.ipr
 out
 *.ignore
-build
+build/
 bin
 thucydides-arquillian
 tools
