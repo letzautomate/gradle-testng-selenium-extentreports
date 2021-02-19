@@ -1,8 +1,11 @@
 package com.letzautomate.pages.generic;
 
+//import autoitx4java.AutoItX;
+import autoitx4java.AutoItX;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
+import com.jacob.com.LibraryLoader;
 import com.letzautomate.utilities.ExtentLink;
 import com.letzautomate.utilities.ExtentManager;
 import com.letzautomate.utilities.InstancesManager;
@@ -12,8 +15,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
+import static com.letzautomate.common.CommonConstants.*;
+//import autoitx4java.AutoItX;
 
 import javax.print.attribute.standard.Media;
+import java.io.File;
 import java.security.SecureRandom;
 
 public class BasePage {
@@ -22,6 +28,7 @@ public class BasePage {
     ExtentTest extentTest;
     ExtentLink extentLink;
     ExtentManager extentManager = new ExtentManager();
+    AutoItX autoItX;
 
     public WebDriver getDriver() {
         return InstancesManager.driverMap.get(Thread.currentThread().getId());
@@ -126,6 +133,23 @@ public class BasePage {
         return sb.toString();
     }
 
+    public void enterTextUsingAutoIt(String winName, String controlID, String textToEnter) {
+        autoItX.controlSend(winName, controlID, "", textToEnter);
+    }
+
+    private AutoItX getAutoItX(){
+        String jacobDLLVersion = JACOBDLL_64;
+        if(System.getProperty(MACHINE_BIT).contains(BIT32)){
+            jacobDLLVersion = JACOBDLL_32;
+        }
+        File jacobFile = new File(AUTOIT_LIB_DIR, jacobDLLVersion);
+        System.setProperty(LibraryLoader.JACOB_DLL_PATH, jacobFile.getAbsolutePath());
+        LibraryLoader.loadJacobLibrary();
+        return new AutoItX();
+    }
 
 
 }
+
+
+

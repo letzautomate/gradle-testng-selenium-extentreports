@@ -113,7 +113,7 @@
             <attachmentsPattern></attachmentsPattern>
             <attachBuildLog>false</attachBuildLog>
             <compressBuildLog>false</compressBuildLog>
-            <replyTo>$PROJECT_DEFAULT_REPLYTO</replyTo>
+
             <contentType>project</contentType>
           </email>
         </hudson.plugins.emailext.plugins.trigger.AlwaysTrigger>

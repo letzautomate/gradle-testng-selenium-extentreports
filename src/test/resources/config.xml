@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Environments>
+
+<Environment name="QA_1">
+    <Parameter key="url" value="http://google.com"></Parameter>
+    <Parameter key="username" value="abcd"></Parameter>
+</Environment>
+<Environment name="QA_2">
+    <Parameter key="url" value="http://google.com"></Parameter>
+    <Parameter key="username" value="abcd1"></Parameter>
+</Environment>
+    <Environment name="QA_3">
+        <Parameter key="url" value="http://google.com"></Parameter>
+        <Parameter key="username" value="abcd1"></Parameter>
+    </Environment>
+
+
+
+</Environments>

@@ -1,0 +1,8 @@
+{"Environments": [
+
+  {"QA1": [{"username":"rama","passsword":"krishna"}]},
+  {"QA2": [{"username":"rama1","passsword":"krishna1"}]},
+  {"QA3": [{"username":"rama2","passsword":"krishna2"}]}
+
+
+]}
