@@ -134,7 +134,14 @@ public class BasePage {
     }
 
     public void enterTextUsingAutoIt(String winName, String controlID, String textToEnter) {
-        autoItX.controlSend(winName, controlID, "", textToEnter);
+        AutoItX autoItX = getAutoItX();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        autoItX.winActivate("Save As");
+        getAutoItX().controlSend(winName, controlID, "", textToEnter);
     }
 
     private AutoItX getAutoItX(){

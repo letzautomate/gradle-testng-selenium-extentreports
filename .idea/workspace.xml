@@ -2,43 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1afd3c7d-a5bf-4903-a2a0-0fdc22a20278" name="Default" comment="Jenkins Configuration">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/letzautomate/common/CommonConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/JsonManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/configuration/Environment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/configuration/EnvironmentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/configuration/Environments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/autoit/AutoItX3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/autoit/AutoItX3_x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/autoit/AutoItX4Java.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/autoit/jacob-1.20-x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/autoit/jacob-1.20-x86.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/autoit/jacob.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gradle-testng-selenium-extentreports_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/jenkins config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/jenkins config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/letzautomate/pages/application/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/letzautomate/pages/application/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/letzautomate/pages/generic/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/letzautomate/pages/generic/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,37 +39,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="gradle-testng-selenium-extentreports" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="gradle-testng-selenium-extentreports" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="gradle-testng-selenium-extentreports" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="gradle-testng-selenium-extentreports" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="gradle-testng-selenium-extentreports" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="gradle-testng-selenium-extentreports" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -108,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="459">
+              <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -120,20 +60,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/pages/generic/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="365">
+              <caret line="139" column="42" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test001.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -141,17 +81,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/pages/application/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="283">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/common/CommonConstants.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="-156">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -159,20 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/configuration/Environment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="255">
               <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/configuration/Environments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="81" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,8 +170,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/ExtentManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test002.java" />
         <option value="$PROJECT_DIR$/documentation/jenkinsconfiguration" />
-        <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/resources/config.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/JsonManager.java" />
         <option value="$PROJECT_DIR$/src/test/resources/config.xml" />
@@ -242,11 +177,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/configuration/Environment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/configuration/Environments.java" />
         <option value="$PROJECT_DIR$/documentation/jenkins config.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/common/CommonConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/pages/application/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test001.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/letzautomate/pages/generic/BasePage.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -268,27 +205,137 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gradle-testng-selenium-extentreports" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="letzautomate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="letzautomate" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="letzautomate" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="letzautomate" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="letzautomate" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="letzautomate" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradle-testng-selenium-extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradle-testng-selenium-extentreports" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="autoit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613721093096" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613879444337" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -320,7 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.gradle-testng-selenium-extentreports [clean]">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -347,6 +394,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="gradle-testng-selenium-extentreports [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -363,6 +429,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.gradle-testng-selenium-extentreports [clean]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -393,41 +464,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2021.02.05 at 14h 44m 09s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 14h 18m 46s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2021.02.05 at 14h 51m 19s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 14h 22m 38s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2021.02.05 at 15h 35m 52s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 14h 25m 23s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2021.02.08 at 16h 36m 26s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 14h 55m 15s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2021.02.09 at 22h 21m 53s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 14h 56m 27s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2021.02.19 at 12h 44m 30s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 14h 57m 06s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2021.02.19 at 12h 45m 30s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 15h 04m 51s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2021.02.19 at 12h 48m 04s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 15h 06m 19s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2021.02.19 at 12h 48m 42s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 15h 16m 35s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Unnamed - 2021.02.19 at 14h 05m 40s.xml">
+    <history-entry file="Unnamed - 2021.02.19 at 15h 17m 38s.xml">
       <configuration name="Unnamed" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26226014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -436,12 +508,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28710726" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26218852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39898133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3261105" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32502708" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.22318527" />
@@ -564,28 +636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java___jb_tmp___" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/documentation/jenkinsconfiguration">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -634,20 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/pages/generic/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/letzautomate/tests/Test001.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -658,27 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/pages/application/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/common/CommonConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="45" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/configuration/Environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,6 +726,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
           <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/TestcaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/utilities/configuration/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/pages/application/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/gradle-testng-selenium-extentreports/src/test/resources/autoit/AutoItX4Java.jar!/autoitx4java/AutoItX.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9180">
+          <caret line="824" column="19" selection-start-line="824" selection-start-column="19" selection-end-line="824" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/letzautomate/pages/generic/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="139" column="42" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>

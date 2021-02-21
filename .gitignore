@@ -3,7 +3,7 @@ test*.db
 .gradle
 .ignore
 .settings
-target
+target/
 .idea
 .classpath
 .checkstyle
@@ -14,12 +14,14 @@ target
 interpolated-*.xml
 *.iws
 *.ipr
-out
+out/
 *.ignore
 build/
-bin
+bin/
 thucydides-arquillian
 tools
 *.sublime-project
 *.sublime-workspace
 .hg*
+*.lock
+*.bin
