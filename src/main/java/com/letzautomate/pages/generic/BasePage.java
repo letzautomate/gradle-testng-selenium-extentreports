@@ -141,7 +141,7 @@ public class BasePage {
             e.printStackTrace();
         }
         autoItX.winActivate("Save As");
-        getAutoItX().controlSend(winName, controlID, "", textToEnter);
+        autoItX.controlSend(winName, controlID, "", textToEnter);
     }
 
     private AutoItX getAutoItX(){
