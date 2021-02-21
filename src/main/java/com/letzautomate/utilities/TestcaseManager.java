@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import static com.letzautomate.common.CommonConstants.*;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -19,7 +20,7 @@ public class TestcaseManager extends DriverManager{
     ExtentManager extentManager = new ExtentManager();
     ExtentReports extentReports = extentManager.getExtentInstance();
 
-    public final static Logger LOGGER = Logger.getLogger(TestcaseManager.class);
+    public static final Logger LOGGER = Logger.getLogger(TestcaseManager.class);
 
     public void setTestcaseName(String testcaseName) {
         Long threadID = Thread.currentThread().getId();
@@ -59,7 +60,7 @@ public class TestcaseManager extends DriverManager{
             extentTest.log(Status.FAIL, "Exception in cleanup :: " + e.getMessage());
 
         }finally {
-            //quitDriver();
+            quitDriver();
         }
         LOGGER.info("The execution is completed for " + iTestResult.getName() + " and the status is " + status);
     }
@@ -76,18 +77,16 @@ public class TestcaseManager extends DriverManager{
     }
 
     public void copyResultsToSharedLocation() {
-        String destinationDir = "";
-        try{
+       try{
             String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 
-            String destDirPath = "C:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + "\\" + timeStamp + "extent-reports";
+            String destDirPath = "C:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + BACKWARDSLASHES + timeStamp + "extent-reports";
             File logFile = new File(System.getProperty("user.dir") + "/build/application.log");
             File srcDir = new File(System.getProperty("user.dir") + "/build/extent-reports");
-            File destDir = new File("C:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + "\\" + timeStamp + "\\extent-reports");
+            File destDir = new File("C:\\LetsDoIt\\results\\" + System.getProperty("tcGroups") + BACKWARDSLASHES + timeStamp + "\\extent-reports");
 
             FileUtils.copyFileToDirectory(logFile, destDir);
             FileUtils.copyDirectory(srcDir, destDir);
-            System.out.println("The Results location in shared drive:: " + destDirPath);
             LOGGER.info("The Results location in shared drive:: " + destDirPath);
         }catch(Exception e){
             e.printStackTrace();

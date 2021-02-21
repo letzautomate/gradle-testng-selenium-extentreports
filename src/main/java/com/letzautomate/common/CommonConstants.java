@@ -7,4 +7,5 @@ public class CommonConstants {
     public static final String AUTOIT_LIB_DIR = "src\\test\\resources\\autoit";
     public static final String MACHINE_BIT = "sun.arch.data.model";
     public static final String BIT32 = "32";
+    public static final String BACKWARDSLASHES = "\\";
 }
