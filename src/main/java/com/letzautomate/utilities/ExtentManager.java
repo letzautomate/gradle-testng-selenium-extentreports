@@ -22,7 +22,7 @@ import java.util.Properties;
 public class ExtentManager {
     private static final Logger LOGGER = Logger.getLogger(ExtentManager.class);
     private static ExtentReports extentReports;
-    private static ExtentHtmlReporter extentHtmlReporter;
+
     private static String extentPropertiesPath = "src\\test\\resources\\extent.properties";
 
     public static ExtentReports getExtentInstance() {
@@ -40,6 +40,7 @@ public class ExtentManager {
     public static ExtentReports createExtentInstance() {
         Properties properties = new Properties();
         InputStream inputStream = null;
+        ExtentHtmlReporter extentHtmlReporter = null;
         try{
             inputStream = new FileInputStream(extentPropertiesPath);
             properties.load(inputStream);
@@ -52,9 +53,9 @@ public class ExtentManager {
             File file = new File(System.getProperty("user.dir")+"\\build\\extent-reports");
             if (!file.exists()) {
                 if (file.mkdir()) {
-                    System.out.println("Directory is created!");
+                    LOGGER.info("Directory is created");
                 } else {
-                    System.out.println("Failed to create directory!");
+                    LOGGER.info("Failed to create the directory");
                 }
             }
             extentReports.attachReporter(extentHtmlReporter);
@@ -67,12 +68,10 @@ public class ExtentManager {
             extentHtmlReporter.config().setChartVisibilityOnOpen(true);
             extentHtmlReporter.config().setEncoding("UTF-");
             extentHtmlReporter.config().setProtocol(Protocol.HTTPS);
-            //extentHtmlReporter.config().setCSS();
-
 
         }catch(Exception e){
             e.printStackTrace();
-        }finally{
+        }{
             if(inputStream!=null){
                 try{
                     inputStream.close();
@@ -96,7 +95,6 @@ public class ExtentManager {
             File finalDestination = new File(destination);
             FileUtils.copyFile(source, finalDestination);
             LOGGER.info("Screenshot destination :: " + destination);
-            return imgPath;
         }catch(Exception e){
             LOGGER.error("Take screenshot exception :: " + e.getMessage());
 
