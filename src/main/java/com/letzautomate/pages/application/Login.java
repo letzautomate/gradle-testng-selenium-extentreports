@@ -13,19 +13,28 @@ public class Login extends BasePage {
         try{
             launchApp();
             enterText(txtUserName, "Ram");
-            Robot robot = new Robot();
-            robot.keyPress(KeyEvent.VK_CONTROL);
-            robot.keyPress(KeyEvent.VK_S);
-            robot.keyRelease(KeyEvent.VK_S);
-            robot.keyRelease(KeyEvent.VK_CONTROL);
-            Thread.sleep(3);
-            enterTextUsingAutoIt("Save As", "Edit1", "Hello");
+
             report("PASS", "Login Successful");
         }catch(Exception e){
             report("PASS", "Login UnSuccessful");
             e.printStackTrace();
+        } }
+
+        public void saveHtmlFile(){
+            Robot robot = null;
+            try {
+                robot = new Robot();
+            } catch (AWTException e) {
+                e.printStackTrace();
+            }
+            robot.keyPress(KeyEvent.VK_CONTROL);
+            robot.keyPress(KeyEvent.VK_S);
+            robot.keyRelease(KeyEvent.VK_S);
+            robot.keyRelease(KeyEvent.VK_CONTROL);
+            enterTextUsingAutoIt("Save As", "Edit1", "C:\\LetsDoIt\\abcd.html");
+            clickUsingAutoIt("Save As", "Button2");
         }
 
-    }
+
 }
 

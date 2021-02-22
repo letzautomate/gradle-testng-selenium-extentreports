@@ -140,9 +140,29 @@ public class BasePage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        autoItX.winActivate("Save As");
-        autoItX.controlSend(winName, controlID, "", textToEnter);
+        autoItX.winActivate(winName);
+        LOGGER.info("Window: " + winName + " is activated");
+      //  autoItX.winClose("Save As");
+
+        autoItX.controlSend(winName, "", controlID, textToEnter);
+        LOGGER.info(textToEnter + " is entered into " + controlID);
     }
+
+    public void clickUsingAutoIt(String winName, String controlID) {
+        AutoItX autoItX = getAutoItX();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        autoItX.winActivate(winName);
+        LOGGER.info("Window: " + winName + " is activated");
+        //  autoItX.winClose("Save As");
+        autoItX.controlClick(winName, "", controlID);
+        LOGGER.info(controlID + " is clicked");
+    }
+
+
 
     private AutoItX getAutoItX(){
         String jacobDLLVersion = JACOBDLL_64;
