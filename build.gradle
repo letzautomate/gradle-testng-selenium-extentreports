@@ -26,6 +26,7 @@ dependencies {
 test{
     systemProperty 'browserToLaunch', System.getProperty('browserToLaunch')
     systemProperty 'tcGroups', System.getProperty('tcGroups')
+    systemProperty 'remote', System.getProperty('remote')
 
     useTestNG() {
         includeGroups << System.getProperty("tcGroups").toString();
