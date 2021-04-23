@@ -60,7 +60,7 @@ public class TestcaseManager extends DriverManager{
             extentTest.log(Status.FAIL, "Exception in cleanup :: " + e.getMessage());
 
         }finally {
-            quitDriver();
+            quitDriver();;;;;
         }
         LOGGER.info("The execution is completed for " + iTestResult.getName() + " and the status is " + status);
     }
