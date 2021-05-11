@@ -41,7 +41,7 @@ public class BasePage {
     }
 
     public void launchApp(){
-        getDriver().get("https://google.com");
+        getDriver().get("http://localhost:8080");
     }
 
     public void buttonClick(By locator) {

@@ -6,19 +6,28 @@ import org.openqa.selenium.By;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class Login extends BasePage {
+public class LoginPage extends BasePage {
 
-    private By txtUserName = By.name("q");
-    public void login(){
-        try{
-            launchApp();
-            enterText(txtUserName, "Ram");
+    private By txtUserName = By.name("j_username");
+    private By txtPassword = By.name("j_password");
+    private By btnLogin = By.name("Submit");
 
-            report("PASS", "Login Successful");
-        }catch(Exception e){
-            report("PASS", "Login UnSuccessful");
-            e.printStackTrace();
-        } }
+
+    public LoginPage enterUserName(String userName){
+        launchApp();
+        enterText(txtUserName, userName);
+        return new LoginPage();
+    }
+
+    public LoginPage enterPassword(String password){
+        enterText(txtUserName, password);
+        return new LoginPage();
+    }
+
+    public LoginPage clickLogin(){
+        buttonClick(btnLogin);
+        return new LoginPage();
+    }
 
         public void saveHtmlFile(){
             Robot robot = null;
